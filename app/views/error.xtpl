@@ -1,0 +1,10 @@
+{{extend ("./layouts/main")}}
+
+{{#block ("content")}}
+  {{message}}
+  {{error.status}}
+  {{error.stack}}  
+	
+{{/block}}
+
+
