@@ -3,6 +3,7 @@ var path = require('path'),
     rootPath = path.normalize(__dirname + '/..'),
     env = process.env.NODE_ENV || 'development';
 
+// 配置文件
 var config = {
   development: {
     root: rootPath,
